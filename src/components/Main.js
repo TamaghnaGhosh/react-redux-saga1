@@ -11,7 +11,7 @@ function Main() {
 
   useEffect(() => {
     dispatch(productList());
-  }, []);
+  }, [dispatch]);
   return (
     <div>
       <div>
