@@ -20,10 +20,7 @@ const Header = () => {
       <Link to="/cart">
         <div className="cart-div">
           <span>{result.length}</span>
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
-            alt=""
-          />
+          <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="" />
         </div>
       </Link>
     </div>
