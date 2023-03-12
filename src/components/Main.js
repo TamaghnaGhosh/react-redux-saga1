@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { useEffect } from "react";
 
 function Main() {
+  
   const dispatch = useDispatch();
   let data = useSelector((state) => state.productData);
   console.warn("data in main component ", data);
